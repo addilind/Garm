@@ -1,0 +1,9 @@
+[submodule "external/glbinding"]
+	path = external/glbinding
+	url = https://github.com/cginternals/glbinding.git
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm.git
