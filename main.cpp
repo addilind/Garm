@@ -1,10 +1,15 @@
 #include <cstdio>
 #include <stdexcept>
+#include <glm/glm.hpp>
+#include "Core/Core.h"
+
 
 int main() {
     try {
         std::printf("Garm - built " __DATE__ " " __TIME__ "\n");
-
+        Core::Core core;
+        core.Run();
+        std::printf("Bye!\n");
         return 0;
     }
     catch(std::exception ex) {
